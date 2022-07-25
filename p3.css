@@ -1,0 +1,322 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default */
+
+        /* MENU */
+        header {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        header>nav {
+            background-color: white;
+            display: flex;
+        }
+
+        .logotipo{
+            width: 95%;
+            margin-left: 0.3rem;
+            padding: 0;
+            margin-top: 1rem;
+
+        }
+
+        a {
+            font-size: 9px;
+        }
+
+        ul{
+            margin-left: 0;
+            padding-left: 1.3rem;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: rgb(116, 116, 116);
+            padding: 10px;
+            padding-top: 1rem;
+            display: block;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            background: #e8e8e8;
+        }
+
+        /* COLUMNAS */
+        main {
+            height: 58rem;
+            margin-top: 0;
+        }
+    
+        main article{
+            margin-bottom: 15rem;
+        }
+    
+        img{
+            width: 100%;
+            height: auto;
+            padding: 0;
+            padding-bottom: 0;
+            transition: .5s ease;
+            filter: saturate(1);
+            backface-visibility: hidden;
+        }
+    
+        a:hover img {
+            filter: saturate(0);
+        }
+    
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            padding-top: 2vw;
+            margin-bottom: 5rem;
+        }
+    
+        .fotos {
+            margin-left: 0rem;
+            margin-right: auto;
+        }
+
+        h1{
+            font-family: 'Recursive', sans-serif;  
+            font-size: 26px;
+            text-align: center;
+            margin-top: 3.5rem;
+            margin-bottom: 2rem;
+        }
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* MENU */
+    header {
+        margin-top: 2rem;
+    }
+
+    .logotipo{
+        width: 80%;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    .menu li a {
+        padding: 14px;
+        display: block;
+    }
+
+    ul{
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+    }
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+        
+    /* MENU */
+    header {
+        margin-top: 2rem;
+    }
+
+    .logotipo{
+        width: 80%;
+        margin-left: 1rem;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    a {
+        font-size: 9px;
+    }
+
+    .menu li a {
+        padding: 14px;
+        display: block;
+    }
+
+    ul{
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    /* COLUMNAS */
+    main {
+        height: 58rem;
+        margin-top: 25rem;
+    }
+
+    main article{
+        margin-bottom: 15rem;
+    }
+
+    img{
+        width: 33%;
+        height: auto;
+        padding: 0;
+    }
+
+    h1{
+        font-family: 'Recursive', sans-serif;  
+        font-size: 24px;
+        text-align: center;
+        margin-top: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    main{
+        margin-top: 0;
+    }
+    }
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* MENU */
+    header {
+        margin-top: 2rem;
+    }
+
+    .logotipo{
+        width: 80%;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    a {
+        font-size: 9px;
+    }
+
+    .menu li a {
+        padding: 14px;
+        display: block;
+    }
+
+    ul{
+        margin-left: 8rem;
+        padding-top: 1rem;
+    }
+
+    /* COLUMNAS */
+    main {
+        height: 58rem;
+        margin-top: 25rem;
+    }
+
+    main article{
+        margin-bottom: 15rem;
+    }
+
+    img{
+        width: 29%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    h1{
+        font-family: 'Recursive', sans-serif;  
+        font-size: 26px;
+        text-align: center;
+        margin-top: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    main{
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* MENU */
+    header {
+        margin-top: 2rem;
+    }
+
+    header img {
+        width: 50%;
+    }
+
+    .logotipo{
+        width: 65%;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .menu li a {
+        padding: 20px;
+        display: block;
+    }
+
+    ul{
+        margin-left: 12.2rem;
+        padding-top: 1.5rem;
+    }
+
+    /* COLUMNAS */
+
+    main {
+        height: 58rem;
+        margin-top: 0;
+    }
+
+    main article{
+        margin-bottom: 15rem;
+    }
+
+    img{
+        width: 29%;
+        height: auto;
+        padding: 0;
+        padding-bottom: 2rem;
+        transition: .5s ease;
+        filter: saturate(1);
+        backface-visibility: hidden;
+    }
+
+    a:hover img {
+        filter: saturate(0);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 2vw;
+        margin-bottom: 5rem;
+    }
+
+    .fotos {
+        margin-left: 9rem;
+        margin-right: auto;
+    }    

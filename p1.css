@@ -1,0 +1,365 @@
+        /* Extra small devices (portrait phones, less than 576px)
+        No media query since this is the default */
+
+        /* MENU */
+        header {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        header>nav {
+            background-color: white;
+            display: flex;
+        }
+
+        .logotipo{
+            width: 95%;
+            margin-left: 0.3rem;
+            padding-top: 1rem;
+        }
+
+        a {
+            font-size: 9px;
+        }
+
+        ul{
+            margin-left: 0;
+            padding-left: 1.5rem;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: rgb(116, 116, 116);
+            padding: 10px;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            display: block;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            background: #e8e8e8;
+        }
+
+        /* COLUMNAS */
+        img{
+            width: 49%;
+            height: auto;
+            padding: 0.2rem;
+        }
+
+        #demo img{
+            width: 85%;
+            margin-left: 1.3rem;
+        }
+
+        /* CUERPO */
+        main>article {
+            height: 20.5rem;
+        }
+
+        main>a {
+            height: 18rem;
+        }
+
+        h1 {
+            font-family: 'Recursive', sans-serif;       
+            text-align: left;
+            font-size: 24px;
+            margin-left: 1.4rem;
+            margin-right: 1rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-family: 'Recursive', sans-serif; 
+            text-align: left;
+            font-size: 18px;
+            margin-bottom: 1rem;
+            margin-left: 1.4rem;
+            margin-right: 1rem;
+        }
+        
+        p {
+            text-align: left;
+            font-size: 12px;
+            margin-left: 1.2rem;
+            margin-right: 1rem;
+        }
+
+
+
+
+
+
+
+
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {
+
+       
+        }
+
+        
+
+        
+
+
+
+
+
+
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+
+            /* MENU */
+            header {
+                margin-top: 2rem;
+            }
+
+            .logotipo{
+                width: 80%;
+                margin-left: 1rem;
+                padding: 0;
+            }
+
+            a {
+                font-size: 9px;
+            }
+
+            .menu li a {
+                padding: 14px;
+                display: block;
+            }
+
+            ul{
+                margin-left: 1rem;
+                padding-top: 1rem;
+            }
+
+            /* COLUMNAS */
+            img{
+                width: 27%;
+                height: auto;
+                padding: 1rem;
+                border-radius: 5%;
+            }
+
+            #demo img{
+                width: 100%;
+                border-radius: 2%;
+                margin-left: 1rem;
+                margin-top: 3rem;
+            }
+
+            /* CUERPO */
+            main>article {
+                height: 28rem;
+            }
+
+            main>a {
+                height: 28rem;
+                margin-top: 3rem;
+            }
+
+            h1 {
+                text-align: left;
+                font-size: 26px;
+                margin-top: 2rem;
+                margin-left: 0;
+                margin-right: 9rem;
+                margin-bottom: 0;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 20px;
+                margin-top: 0;
+                margin-bottom: 1.5rem;
+                margin-left: 0;
+                margin-right: 9rem;
+            }
+            
+            p {
+                text-align: left;
+                font-size: 14px;
+                margin-left: 0rem;
+                margin-right: 3rem;
+                padding: 0;
+            }
+        }
+
+
+
+
+
+
+
+            /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+               
+            /* MENU */
+            header {
+                margin-top: 2rem;
+            }
+
+            .logotipo{
+                width: 80%;
+                margin-left: 1rem;
+                padding: 0;
+            }
+
+            a {
+                font-size: 9px;
+            }
+
+            .menu li a {
+                padding: 14px;
+                display: block;
+            }
+
+            ul{
+                margin-left: 8rem;
+                padding-top: 1rem;
+            }
+
+            /* COLUMNAS */
+            img{
+                width: 27%;
+                height: auto;
+                padding: 1rem;
+                border-radius: 5%;
+            }
+
+            #demo img{
+                width: 90%;
+                border-radius: 2%;
+                margin-left: 3rem;
+                margin-top: 3rem;
+            }
+
+            /* CUERPO */
+            main>article {
+                height: 20rem;
+            }
+
+            main>a {
+                height: 20rem;
+            }
+
+            h1 {
+                text-align: left;
+                font-size: 30px;
+                margin-top: 3rem;
+                margin-left: 0;
+                margin-right: 9rem;
+                margin-bottom: 0;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 22px;
+                margin-top: 0;
+                margin-bottom: 2rem;
+                margin-left: 0;
+                margin-right: 9rem;
+            }
+            
+            p {
+                text-align: left;
+                font-size: 14px;
+                margin-left: 0rem;
+                margin-right: 6rem;
+                padding: 0;
+            }
+        }
+
+
+
+
+
+            
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+
+            /* MENU */
+            header {
+                margin-top: 2rem;
+            }
+
+            .logotipo{
+                width: 65%;
+                margin-left: 1rem;
+                padding: 0;
+            }
+
+            a {
+                font-size: 12px;
+            }
+
+            .menu li a {
+                padding: 20px;
+                display: block;
+            }
+
+            ul{
+                margin-left: 12rem;
+                padding-top: 1.5rem;
+            }
+
+            /* COLUMNAS */
+            img{
+                width: 27%;
+                height: auto;
+                padding: 1rem;
+                border-radius: 5%;
+            }
+
+            #demo img{
+                width: 85%;
+                border-radius: 2%;
+                margin-left: 5rem;
+                margin-top: 3rem;
+            }
+
+            /* CUERPO */
+            main{
+                height: 15rem;
+            }
+            
+            main>a {
+                margin-top: 2rem;
+            }
+
+            h1 {
+                text-align: left;
+                font-size: 36px;
+                margin-top: 6rem;
+                margin-bottom: 0;
+                margin-left: 1rem;
+                margin-right: 9rem;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 28px;
+                margin-top: 0;
+                margin-bottom: 2rem;
+                margin-left: 1rem;
+                margin-right: 9rem;
+            }
+            
+            p {
+                text-align: left;
+                font-size: 18px;
+                margin-left: 1rem;
+                margin-right: 9rem;
+                padding: 0;
+            }
+            }
