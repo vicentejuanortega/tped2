@@ -1,0 +1,146 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(imgs/fondo-1400x860.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+button{
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.masinfo{
+    color: rgb(0, 132, 255);
+}
+
+.cosmos{
+    font-size: 22px;
+    padding-left: 5vw;
+}
+
+.creado {
+    padding-left: 5vw;
+}
+
+footer{
+    padding: 0;
+}
+
+header #logo {
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
+#logo > img {
+    width: 50px;
+    height: auto;
+}
+
+header nav {
+    padding-top: 10px;
+}
+
+nav {
+    height: 50px;
+    color: green;
+}
+
+nav li {
+    display: inline-block;    
+}
+
+header nav li {
+    width: 20ex;
+    text-transform: uppercase;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 50px;
+}
+
+.principal {
+    color: white;
+    font-size: 14px;
+    padding: 0;
+    padding-top: 30px;
+    margin: -12px;
+    opacity: 40%;
+}
+
+.secundario{
+    color: yellow;
+    font-size: 14px;
+}
+
+.terciario {
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul{
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(75, 75, 75);
+    height: 55px;
+}
+
+main #texto {
+    padding-top: 9em;
+    padding-left: 50px; 
+    padding-right: 100px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+main #texto > * {
+    padding: 1px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main #leyendaImagen {
+    width: 50%;
+    padding-left: 50%;
+    padding-top: 4%;
+    text-align: start;
+}
+
+#leyendaImagen img {
+    width: 2em;
+    height: auto;
+}
+
+#logos img {
+    width: 3em;
+    height: auto;
+    padding-top: 12px;
+}
+
+#leyendaImagen hr {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 80%;
+}

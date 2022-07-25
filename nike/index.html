@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Nike Digital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        /* MENU */
+            header {
+                height: 5rem;
+            }
+
+            header>nav {
+                background-color: lightgray;
+            }
+
+            /* IMAGEN */
+
+
+            div img {
+                width: 100%;
+                height: auto;
+            }
+
+            /* CUERPO */
+            main>a {
+                height: 48rem;
+            }
+
+            h1 {
+                font-size: 92px;
+                margin-top: 12rem;
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+
+            h2 {
+                font-size: 32px;
+                color: lightgray;
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+
+            p {
+                font-size: 27px;
+                margin-top: 2rem;
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+
+            div ul{
+                padding-bottom: 0;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 30rem;
+                padding-bottom: 10rem;
+            }
+
+            li {
+                padding: 5px;
+                color: darkgray;
+            }
+
+            a {
+                text-decoration: none;
+                outline: none;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: red;
+                font-size: 38px;
+            }
+
+            a:hover {
+                color: white;
+            }
+
+            a:hover.enlace {
+                text-decoration: underline;
+                color: darkgreen;
+            }
+
+            a:hover.noenlace {
+                text-decoration: line-through;
+                color: red;
+            }
+
+            /* ESPACIO */
+            footer {
+                height: 25rem;
+            }
+
+            footer>article {
+                background-color: black;
+            }
+
+            article li {
+                font-size: 35px;
+            }
+
+            .ultima {
+                padding-top: 12rem;
+                padding-left: 8rem;
+            }
+
+            nav img {
+                width: 15%;
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <!-- <a class="navbar-brand" href="#"><img src="imgs/logovice.png" alt=""></a> -->
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menú</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tienda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <header class="row">
+        </header>
+
+        <div class="row">
+            <article class="col-12">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imgs/autobus.jpg" alt="foto1" title="foto1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/corriendo.jpg" alt="foto2" title="foto2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/modelos.jpg" alt="foto3" title="foto3">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <main class="row">
+            <a class="col-12">
+                <h1>Nike<br>Digital</h1>
+                <h2>Product Vision & Design</h2>
+                <p>
+                    Since 2017, our team has partnered with Nike to imagine, design, and launch some of Nike’s most
+                    innovative
+                    concepts in mobile commerce. Challenged to help strengthen Nike’s relationship with its most devoted
+                    fanbase, our team worked closely with Nike Digital to create mobile experiences that capture the
+                    magic of
+                    unlocking Nike’s most exclusive products.
+                </p>
+                <ul>
+                    <a class="noenlace" href="#">
+                        <li>Art Direction</li>
+                    </a>
+                    <a class="enlace" href="https://easda.es">
+                        <li>Visual Design</li>
+                    </a>
+                    <a class="enlace" href="https://easda.es/?page_id=6905" target="_blank">
+                        <li>Interaction Design</li>
+                    </a>
+                    <a class="enlace" href="imgs/lata negra.jpg">
+                        <li>Experience Design</li>
+                    </a>
+                    <a class="noenlace" href="#">
+                        <li>Motion Design</li>
+                    </a>
+                    <a class="noenlace" href="">
+                        <li>Prototyping</li>
+                    </a>
+                </ul>
+            </a>
+        </main>
+
+        <footer class="row">
+            <article class="col-12">
+                <ul class="ultima">
+                    <li>Projects</li>
+                    <li>Studio</li>
+                    <li>News</li>
+                    <li>Careers</li>
+                    <li>Contact</li>
+                </ul>
+            </article>
+        </footer>
+
+    </div>
+</body>
+
+</html>

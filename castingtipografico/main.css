@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 27vw;
+    height: 27vh;
+    padding: 20px;
+}
+
+main{
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+button{
+    background-color: rgb(248, 240, 169);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+}
+
+#uno{
+    font-family: 'Lobster', cursive;
+}
+
+#dos{
+    font-family: 'Cinzel', serif;
+}
+
+#tres{
+    font-family: 'Monoton', cursive;
+}
+
+#cuatro{
+    font-family: 'Orbitron', sans-serif;
+}
+
+#cinco{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#seis{
+    font-family: 'Quantico', sans-serif;
+}
+
+#siete{
+    font-family: 'Special Elite', cursive;
+}
+
+#ocho{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#nueve{
+    font-family: 'Yuji Mai', serif;
+}
+

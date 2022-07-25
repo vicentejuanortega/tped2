@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana ,Helvetica, Arial, sans-serif;
+    letter-spacing: 1px; 
+}
+
+h1 {
+    font-size: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4vw;
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.enlaces li {
+    display: inline;
+}
+
+.enlaces{
+    margin-bottom: 6vw;
+}
+
+li {
+    padding: 2vw;
+    color: darkgray;
+}
+
+ul {
+    list-style: none; 
+    padding: 2vw;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(137, 145, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(27, 78, 189);
+}
+
+a:hover.enlace {
+    text-decoration: underline;
+    color: black;
+}
+
+img{
+    height: 20vh;
+}
+
+.titulares{
+    color: azure;
+    width: 80vw;
+    height: 37vh;
+    background-image: url(imagenes/teclado.jpg);
+    background-size: cover; 
+    margin-top: 0;
+    margin-bottom: 4vw;
+    padding: 10vw;
+}

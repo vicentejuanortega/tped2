@@ -1,0 +1,178 @@
+body{
+    font-family: Verdana ,Helvetica, Arial, sans-serif;
+    letter-spacing: 1px; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.capitular{
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.cabecera{
+    width: 100vw;
+    height: auto;
+}
+
+.imagen1{
+    width: 100vw;
+    height: auto;
+}
+
+.imagenes{
+    width: 60vw;
+    margin-left: 21vw;
+    margin-right: 25vw;
+}
+
+.imagenBanner{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 25vw;
+    margin-top: 2vw;
+}
+
+.imagenT{
+    width: 12vw;
+    margin-left: 1vw;
+    margin-right: 4vw;
+}
+
+.logos{
+    width: 11vw;
+    margin-left: 44vw;
+    margin-top: 2vw;
+}
+
+.seisLogos{
+    width: 29vw;
+    margin-top: 2vw;
+}
+
+.titulares{
+    text-align: center;
+}
+
+.azul{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue; 
+}
+
+li{
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    line-height: 150%;
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+h2{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 2vw;
+}
+
+h3{
+    font-size:11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightslategray;
+    margin-top: 3vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+
+h4{
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightslategray;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+}
+
+h5 {
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 38vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    padding: 1vw;
+    background-color: lightgray;
+}
+
+h6{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31vw;
+    margin-right: 30vw;
+    margin-top: 1vw;
+}
+
+p {
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    line-height: 150%;
+}
+
+.titularNegrita {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 28vw;
+    margin-right: 28vw;
+    padding: 2vw;
+}
+
+.azul{
+    color: royalblue;
+}
+
+ul{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    list-style: none;
+}
+
+hr{
+    size: 2px;
+    color: black;
+    margin-left: 31vw;
+    margin-right: 30vw;
+    margin-top: 1vw;
+}
+
+.textosFinales{
+    color: gray;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30vw;
+    opacity: 80%;
+}
